@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800&display=swap");
+
+/* shared styles */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Mulish", sans-serif;
+}
+.color-primary {
+  color: #ff5400;
+}
+
+/* footer section styles */
+.footer-container {
+  background-color: rgba(19, 19, 24, 0.05);
+}
+.footer-title {
+  display: flex;
+  justify-content: center;
+  font-size: 28px;
+  font-weight: 800;
+  padding-top: 100px;
+  margin-bottom: 15px;
+  align-items: center;
+}
+#footer-img {
+  width: 70px;
+  height: 60px;
+  margin-right: 16px;
+}
+.footer-p {
+  color: #5a5a5d;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.footer-icon {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.footer-copy {
+  font-size: 16px;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 40px;
+  padding-bottom: 60px;
+}
+/* responsive styles */
+
+/* small devices */
+@media screen and (max-width: 660px) {
+  /* footer */
+  .footer-title {
+    font-size: 20px;
+    padding-top: 70px;
+    margin-bottom: 10px;
+  }
+  .footer-p {
+    font-size: 16px;
+    margin: auto 30px;
+  }
+  .footer-icon {
+    gap: 15px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+  }
+  .footer-copy {
+    font-size: 14px;
+    margin-top: 30px;
+    padding-bottom: 50px;
+  }
+}
