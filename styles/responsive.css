@@ -63,6 +63,12 @@
     width: 150px;
   }
 
+  /* choose us */
+  .card-container {
+    flex-direction: column;
+    gap: 40px;
+  }
+
   /* newsletter */
   .newsletter-container {
     flex-direction: column;
@@ -179,6 +185,12 @@
   }
   .btn-tour {
     font-size: 20px;
+  }
+
+  /* choose us */
+  .card-container {
+    flex-direction: column;
+    gap: 40px;
   }
 
   /* newsletter  */

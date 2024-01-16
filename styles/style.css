@@ -157,6 +157,60 @@ p {
   border: none;
   margin-top: 16px;
 }
+
+/* choose us styles */
+.us-container {
+  width: 80%;
+  margin: 100px auto;
+  text-align: center;
+}
+.us-container h1 {
+  font-size: 46px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+.us-container p {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 46px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: start;
+}
+.card-container h3 {
+  font-size: 28px;
+  font-weight: 800;
+  margin-top: 32px;
+  margin-bottom: 16px;
+}
+
+.card1 {
+  max-width: 600px;
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background: rgba(251, 181, 99, 0.05);
+  padding: 30px;
+}
+.two {
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  background: rgba(41, 206, 246, 0.05);
+}
+.three {
+  text-align: start;
+  border: 1px solid rgba(233, 68, 68, 0.2);
+  background: rgba(233, 68, 68, 0.05);
+  margin: 40px auto;
+}
+
+.three h3 {
+  font-size: 28px;
+  font-weight: 800;
+  margin-top: 32px;
+  margin-bottom: 16px;
+}
 /* newsletter section styles */
 .newsletter-container {
   width: 80%;
