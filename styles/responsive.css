@@ -1,0 +1,150 @@
+/* responsive styles */
+
+/* small devices */
+@media screen and (max-width: 600px) {
+  /* nav */
+  .nav-title {
+    font-size: 32px;
+  }
+  .navA li {
+    display: none;
+  }
+  #navF {
+    display: block;
+  }
+  /* banner */
+  .banner-container {
+    padding: 30px;
+  }
+  .banner-title {
+    font-size: 58px;
+    padding-top: 70px;
+  }
+  .banner-p {
+    font-size: 18px;
+    margin-top: 22px;
+    margin-bottom: 44px;
+  }
+  .banner-inputs {
+    padding: 18px;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .input-text {
+    max-width: 200px;
+    padding: 15px;
+  }
+  .btn-banner {
+    max-width: 200px;
+    padding: 15px;
+  }
+  /* newsletter */
+  .newsletter-container {
+    flex-direction: column;
+    gap: 30px;
+    padding-right: 10px;
+  }
+  .news-input {
+    padding: 30px;
+  }
+  .news-title {
+    font-size: 26px;
+  }
+  .news-p {
+    font-size: 16px;
+    margin-bottom: 18px;
+  }
+  .input1 {
+    width: 100%;
+    height: 50px;
+    font-size: 14px;
+    padding-left: 10px;
+    margin-top: 18px;
+  }
+  .btn-news {
+    font-size: 18px;
+    height: 50px;
+    width: calc(100% + 10px);
+    margin-top: 20px;
+  }
+  .swift {
+    font-size: 20px;
+  }
+  .bonus {
+    font-size: 24px;
+  }
+  /* footer */
+  .footer-title {
+    font-size: 20px;
+    padding-top: 70px;
+    margin-bottom: 10px;
+  }
+  .footer-p {
+    font-size: 16px;
+    margin: auto 30px;
+  }
+  .footer-icon {
+    gap: 15px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+  }
+  .footer-copy {
+    font-size: 14px;
+    margin-top: 30px;
+    padding-bottom: 50px;
+  }
+  #footer-img {
+    width: 60px;
+    height: 50px;
+    margin-right: 12px;
+  }
+}
+
+/* large device */
+@media screen and (max-width: 992px) {
+  /* nav */
+  .navA li {
+    display: none;
+  }
+  #navF {
+    display: block;
+  }
+  /* banner */
+  .banner-container {
+    padding: 40px;
+  }
+  .banner-title {
+    font-size: 62px;
+    padding-top: 80px;
+  }
+  .banner-p {
+    font-size: 20px;
+    margin-top: 24px;
+    margin-bottom: 46px;
+  }
+  .banner-inputs {
+    padding: 20px;
+    flex-direction: column;
+  }
+  .input-text {
+    max-width: 250px;
+    padding: 20px;
+  }
+  .btn-banner {
+    max-width: 280px;
+    padding: 20px;
+  }
+
+  /* newsletter  */
+  .newsletter-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .news-input {
+    margin-bottom: 40px;
+  }
+  /* footer */
+  .footer-p {
+    margin: auto 30px;
+  }
+}
