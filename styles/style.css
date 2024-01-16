@@ -156,6 +156,50 @@ p {
   border: none;
   margin-top: 16px;
 }
+/* extra section styles */
+.extra-container {
+  width: 80%;
+  margin: 100px auto;
+  border-radius: 16px;
+  background-image: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8) 30%,
+      rgba(19, 19, 24, 0) 100%
+    ),
+    url(../images/kaaba.jpg);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+}
+.extra-container h1 {
+  font-size: 46px;
+  font-weight: 800;
+  padding-top: 30px;
+}
+.extra-container p {
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  width: 80%;
+  margin: 25px auto;
+}
+.extra-container h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.off {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+.of {
+  border-radius: 16px;
+}
 /* choose your destination styles */
 .destination-container {
   width: 80%;

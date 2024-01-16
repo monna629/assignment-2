@@ -1,7 +1,7 @@
 /* responsive styles */
 
 /* small devices */
-@media screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   /* nav */
   .nav-title {
     font-size: 32px;
@@ -78,6 +78,11 @@
   }
   .card1 p {
     font-size: 18px;
+  }
+  /* extra  */
+  .off {
+    flex-direction: column;
+    padding: 20px;
   }
   /* destination */
   .destination-container h3 {
@@ -236,6 +241,11 @@
   }
   .btn-tour {
     font-size: 20px;
+  }
+  /* extra  */
+  .off {
+    flex-direction: column;
+    padding: 30px;
   }
   /* destination */
 
