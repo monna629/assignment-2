@@ -32,13 +32,37 @@
     justify-content: space-around;
   }
   .input-text {
-    max-width: 100px;
-    padding: 15px;
+    width: 150px;
+    padding: 10px;
+    font-size: 16px;
   }
   .btn-banner {
-    max-width: 100px;
-    padding: 15px;
+    width: 200px;
+    padding: 10px;
+    font-size: 16px;
   }
+  /*popular tour */
+  .tour-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .tour-text {
+    width: 100%;
+  }
+  .tour-text li,
+  p {
+    font-size: 18px;
+  }
+  .tour-text h1 {
+    font-size: 36px;
+  }
+  .btn-tour {
+    font-size: 18px;
+    padding: 15px;
+    width: 150px;
+  }
+
   /* newsletter */
   .newsletter-container {
     flex-direction: column;
@@ -69,10 +93,10 @@
     margin-top: 20px;
   }
   .swift {
-    font-size: 20px;
+    font-size: 18px;
   }
   .bonus {
-    font-size: 24px;
+    font-size: 22px;
   }
   /* footer */
   .footer-title {
@@ -129,12 +153,32 @@
     width: 70%;
   }
   .input-text {
-    max-width: 250px;
+    width: 250px;
     padding: 20px;
   }
   .btn-banner {
-    max-width: 280px;
+    width: 280px;
     padding: 20px;
+  }
+
+  /*popular tour */
+  .tour-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .tour-text {
+    width: 100%;
+  }
+  .tour-text li,
+  p {
+    font-size: 20px;
+  }
+  .tour-text h1 {
+    font-size: 40px;
+  }
+  .btn-tour {
+    font-size: 20px;
   }
 
   /* newsletter  */
